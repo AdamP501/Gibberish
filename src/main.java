@@ -50,6 +50,8 @@ public class main {
 
             System.out.println("Enter the first Gibberish syllable (add * for the vowel substitute): ");
             syllArray[0] = scanner.next();
+
+            //check if the syllable is valid
             while (!validSyllable(syllArray[0]))
             {
                 if (!validSyllable(syllArray[0]))
@@ -64,6 +66,8 @@ public class main {
 
             System.out.println("Enter the second Gibberish syllable (* for vowel substitute): ");
             syllArray[1] = scanner.next();
+
+            //check if the syllable is valid
             while (!validSyllable(syllArray[1]))
             {
                 if (!validSyllable(syllArray[1]))
